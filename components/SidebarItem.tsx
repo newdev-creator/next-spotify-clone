@@ -40,7 +40,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
       href={href}
     >
       <Icon size={26} />
-      {/* 00:23:50 */}
+      <p className="truncate w-full">{label}</p>
     </Link>
   );
 };
