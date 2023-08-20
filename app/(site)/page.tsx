@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ListItem from "@/components/ListItem";
 
 export default function Home() {
   return (
@@ -12,7 +13,30 @@ export default function Home() {
         overflow-y-auto
       "
     >
-      <Header>Header</Header>
+      <Header className="mb-2">
+        <h1
+          className="
+            text-white
+            text-3xl
+            font-semibold
+          "
+        >
+          Welcome back
+        </h1>
+        <div
+          className="
+            grid
+            grid-cols-1
+            sm:grid-cols-2
+            xl:grid-cols-3
+            2xl:gris-cols-4
+            gap-3
+            mt-4
+          "
+        >
+          <ListItem />
+        </div>
+      </Header>
     </div>
   );
 }
